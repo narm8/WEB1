@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB1 - HTML</title>
+</head>
+<body>
+<h1><a href="index.html">WEB</a></h1>
+    <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+    </ol>
+
+<h2>HTML</h2> 
+<h3>기본문법</h3>
+<br>
+<a href="http://www.advancedwebranking.com/html/">태그 상위 25개</a>
+<p>
+<pre>
+&lt;strong&gt;&lt;/strong&gt; : <strong>글꼴 스타일 굵게 Bold </strong>
+&lt;u&gt;&lt;/u&gt; : <u>글자에 밑줄 긋기 underline </u>
+&lt;h1&gt;&lt;/h1&gt; : <h4>제목 : 글꼴 스타일 더 굵게 & 줄바꿈 하기</h4> 
+    숫자가 커질수록 글꼴 크기는 작아진다. 최대 h6까지
+    h1은 한 페이지에 하나
+&lt;br&gt; : 단순 줄바꿈 태그 <br>line tag
+<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+&lt;p&gt;&lt;/p&gt; : 단락으로 지정하는 의미가 있음. 여백이 정해져 있어 css로 속성을 써야 변경 가능
+<p style="margin-top:50px;">To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+</pre>
+</p>
+<p>
+속성(Attribute) : 태그의 심화된 문법  (무료이미지 사이트 <a hreg="http://unsplash.com">Unsplash</a><br>
+&lt;img&gt; : 이미지를 보여주는 태그인데 이것만으로는 부족함
+&lt;img =src"사진 파일명.확장자" width="100%" &gt; <br>
+<img src="coding.jpg" width="200">
+</p>
+
+<p>
+부모-자식
+목록 태그 (2세대: ul,ol > li)
+&lt;parent&gt;   &lt;ul&gt; : 리스트를 그룹화하는 부모태그 (Unordered)
+    &lt;child&gt;   &lt;li&gt; : 목록, 리스트 만드는 태그
+    &lt;/child&gt;  &lt;/li&gt;
+&lt;/parent&gt;  &lt;/ul&gt;
+&lt;ol&gt;&lt;/ol&gt; : ul 대신 자동으로 순번을 매겨주는 태그 (Odered)
+테이블 태그 (3세대: table> tr > td)
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;head&lt;/td&gt;
+        &lt;td&gt;98.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;body&lt;/td&gt;
+        &lt;td&gt;97.9%&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+<table border="1">
+    <tr>
+        <td>head</td>
+        <td>98.1%</td>
+    </tr>
+    <tr>
+        <td>body</td>
+        <td>97.9%</td>
+    </tr>
+    <tr>
+        <td>html</td>
+        <td>97.9%</td>
+    </tr>
+</table>
+</p>
+<p>
+    <pre>
+문서의 구조
+&lt;!doctype html&gt; : 이 문서는 html라는 관용표현
+&lt;html&gt;&lt;/html&gt; :최고위 태그, 전체를 감싸줘야 함
+&lt;head&gt;
+    &lt;title&gt;web1 - html&lt;title&gt;
+    &lt;meta charset="utf-8"&gt;   : char는 문자 set은 규칙, utf-8로 문서를 읽어라
+    <meta charset="utf-8">
+ㄴ본문을 설명하는 부분은 &lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;&lt;/body&gt; : 본문 범위 지정
+<h1>HTML이란 무엇인가?</h1>  : 한글이 깨짐 UTF-8 이어야 함 (이걸 meta태그로)
+
+&lt;a&gt; : 앵커의 약어, 하이퍼링크 기능을 부여하는 태그
+&lt;a href="http://주소" target="_blank" title="툴팁"&gt; 링크텍스트 &lt;/a&gt;
+<a href="http://주소" target="_blank" title="툴팁">링크테스트</a>
+target="_blank" : 링크 클릭 시 새 탭 열기
+title="툴팁" : 링크텍스트에 커서를 대고 있을 때 뜨는 툴팁(설명)
+</pre>
+</p>
+
+</body>
+</html>
