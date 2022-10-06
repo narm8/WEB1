@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            h1{
+                border: 5px solid red;
+                padding: 20px;
+                margin:2px;
+                width:100px;
+            }
+            table, td, th {
+             border : 1px solid black;
+            border-collapse : collapse;
+            }
+            table {
+            width : 300px;
+            height : 200px;
+            }
+            th, td {
+            vertical-align : top;
+            padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <h1>CSS</h1>
+        <pre style="background-color:seashell; border:1px solid darkgreen; font-family:sans-serif;">
+        Cascading Style Sheets (<a href="https://www.w3schools.com/css/default.asp">CSS</a>)
+            /* 사이는 css 주석  */
+        <p>
+        ※ 박스모델 ※
+        bloock level element :화면전체
+        inline element : 자신의 컨텐트 크기만큼
+            display 속성을 써서 inline/block처럼 표현할 수 있음
+            display:none 을 쓰면 태그 표현을 안 할 수 있음 (화면에서 사라짐)
+
+        padding:20px : 컨텐트와 테두리 사이 간격을 지정하는 속성
+        margin:0 : 테두리 간의 간격 (1개 상하좌우,2개 상하/좌우,3개 상/좌우/하,4개 상/하/좌/우)
+        width:100px : display:block을 이기고 테두리 너비를 100픽셀로 지정
+
+        h1,a{ 
+            콤마를 쓰면 a{ }를 더 안 쓰고 한번에 두 태그에 스타일 적용할 수 있음
+        }
+    </p>
+        <table>
+            <tr>
+                <td>
+        h1{
+            border-width:5px;
+            border-color:red;
+            border-style:solid;
+            display:inline;
+        }
+        a{
+            border-width:5px;
+            border-color:red;
+            border-style:solid;
+        }
+    </td>
+    <td>
+        더 좋은 코드
+
+        h1,a{
+            border: 5px solid red
+        }
+
+        속성 순서는 상관 없음
+    </td>
+    </tr>
+    </table>
+</pre>
+    </body>
+</html>
